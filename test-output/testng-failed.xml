@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite data-provider-thread-count="4" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.tmb.dpMeth.Sample">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test2" invocation-numbers="0 3 1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tmb.dpMeth.Sample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

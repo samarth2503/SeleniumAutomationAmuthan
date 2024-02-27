@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.tmb.test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test2"/>
+          <include name="tearDown"/>
+          <include name="loginLogoutTest"/>
+        </methods>
+      </class> <!-- com.tmb.test.LoginPageTest -->
+      <class name="com.tmb.test.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.tmb.test.HomePageTest -->
+      <class name="com.tmb.test.OrangeHRMTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginLogoutTest"/>
+        </methods>
+      </class> <!-- com.tmb.test.OrangeHRMTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
